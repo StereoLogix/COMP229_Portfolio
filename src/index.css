@@ -1,19 +1,19 @@
-/* src/index.css */
-
-/* Basic reset */
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f0f0f0;
-  color: #333;
+  color: #ffffff;
 }
 
+/* Anchor Link Styles */
 a {
   color: #333;
   text-decoration: none;
@@ -23,17 +23,20 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Container Styles */
 .container {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* Home Page Styles */
 .home {
   display: flex;
   width: 100%;
 }
 
+/* Sidebar Styles */
 .sidebar {
   width: 30%;
   display: flex;
@@ -42,12 +45,14 @@ a:hover {
   padding-right: 1rem;
 }
 
+/* Sidebar Image Styles */
 .sidebar img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
+/* Content Area Styles */
 .content {
   width: 70%;
   display: flex;
@@ -58,6 +63,7 @@ a:hover {
   flex-direction: column;
 }
 
+/* Content Header and Paragraph Styles */
 .content h2, .content p {
   font-size: 3rem;
 }

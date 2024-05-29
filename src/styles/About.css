@@ -1,41 +1,38 @@
-/* src/styles/About.css */
+/* About Section Content */
+.about .content {
+  text-align: center; 
+  margin: 0 auto;
+  max-width: 800px; 
+  padding: 2rem;
+}
 
-.about {
-    display: flex;
-    width: 100%;
-  }
-  
-  .sidebar {
-    width: 30%;
-    display: flex;
-    justify-content: center; 
-    align-items: left;
-    padding-right: 1rem;
-  }
-  
-  /* this div is an image template */
-  .sidebar img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  /* this div is a text/content template */
-  .content {
-    width: 70%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding-left: 1rem;
-    text-align: center; 
-    flex-direction: column; 
-  }
-  
-  .content h2 {
-    font-size: 3rem; 
-  }
-  
-  .content p {
-    font-size: 1.5rem; 
-  }
-  
+/* About Section Header */
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* About Section Paragraphs */
+.about .content p {
+  font-size: 1rem; 
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Resume Button Styles */
+.resume-button {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: limegreen; 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+/* Resume Button Hover Effect */
+.resume-button:hover {
+  background-color: darkgreen; /* Change color on hover */
+}

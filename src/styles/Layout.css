@@ -1,54 +1,90 @@
-/* src/styles/Layout.css */
+/* Global Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
+/* Layout Styles */
 .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: url('../assets/Images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-  }
-  
-  .nav {
-    background-color: rgba(51, 51, 51, 0.2); /* Semi-transparent background */
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  .nav a {
-    margin: 0 1rem;
-    color: #fff;
-  }
-  
-  .main-content {
-    display: flex;
-    flex: 1;
-    padding: 2rem;
-  }
-  
-  .sidebar {
-    width: 30%;
-    padding-right: 1rem;
-  }
-  
-  .sidebar img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .content {
-    width: 70%;
-    padding-left: 1rem;
-  }
-  
-  .footer {
-    background-color: rgba(51, 51, 51, 0.2); /* Semi-transparent background */
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../assets/Images/background.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+/* Navigation Bar Styles */
+.nav {
+  background-color: rgba(51, 51, 51, 0.2); /* Semi-transparent background */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Navigation Logo Styles */
+.nav-logo {
+  max-height: 100%; 
+  max-width: 60px; 
+  height: auto;
+}
+
+/* Navigation Links Container */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation Link Styles */
+.nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; 
+}
+
+/* Navigation Link Hover Effect */
+.nav a:hover {
+color: limegreen; 
+}
+
+/* Content Wrapper Styles */
+.content-wrapper {
+  display: flex;
+  flex: 1; 
+  align-items: center; 
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 25%;
+  padding-left: 20px; 
+}
+
+/* Sidebar Image Styles */
+.sidebar img {
+  width: 100%; 
+  max-width: 400px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+/* Main Content Styles */
+.main-content {
+  width: 75%;
+  padding: 2rem;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgba(51, 51, 51, 0.2); /* Semi-transparent background */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}

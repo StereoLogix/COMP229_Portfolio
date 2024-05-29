@@ -1,39 +1,65 @@
-/* src/styles/Home.css */
+/* Home Page Styles */
+.home {
+  display: flex;
+  width: 100%;
+}
 
-  .home {
-    display: flex;
-    width: 100%;
-  }
-  
-  .sidebar {
-    width: 30%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding-right: 1rem;
-  }
-  
-  .sidebar img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .content {
-    width: 70%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding-left: 1rem;
-    text-align: center; 
-    flex-direction: column; 
-  }
-  
-  .content h2 {
-    font-size: 3rem; 
-  }
-  
-  .content p {
-    font-size: 1.5rem; 
-  }
-  
+/* Sidebar Styles */
+.sidebar {
+  width: 30%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-right: 1rem;
+}
+
+/* Sidebar Image Styles */
+.sidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Content Area Styles */
+.content {
+  width: 70%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 1rem;
+  text-align: center; 
+  flex-direction: column; 
+}
+
+/* Content Header Styles */
+.content h2 {
+  font-size: 3rem; 
+}
+
+/* Content Paragraph Styles */
+.content p {
+  font-size: 1.5rem; 
+}
+
+/* Home Content Styles */
+.home .content {
+  text-align: center; 
+}
+
+/* About Button Styles */
+.about-button {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: limegreen; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+/* About Button Hover Effect */
+.about-button:hover {
+  background-color: darkgreen; /* Change color on hover */
+}
