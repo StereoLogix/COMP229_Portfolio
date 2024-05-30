@@ -1,0 +1,109 @@
+/* Container for the contact section */
+.contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Content box within the contact section */
+.contact .content {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1); /* Semi-translucent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(8, 230, 30); 
+}
+
+/* Main heading for the contact section */
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Container for contact information */
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+/* Paragraph text within the contact information */
+.contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Links within the contact information */
+.contact-info a {
+    color: #20eedd; 
+    text-decoration: none;
+}
+
+/* Hover state for links within the contact information */
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Form container for the contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Row layout within the contact form */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Column layout within the contact form */
+.form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 48%; 
+}
+
+/* Labels within the contact form */
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    color: limegreen; 
+}
+
+/* Input and textarea elements within the contact form */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black; 
+    background: rgba(255, 255, 255, 0.7); /* Semi-translucent input background */
+}
+
+/* Message label within the contact form */
+.contact-form .message-label {
+    width: 100%;
+}
+
+/* Button within the contact form */
+.contact-form button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover state for button within the contact form */
+.contact-form button:hover {
+    background-color: darkgreen;
+}

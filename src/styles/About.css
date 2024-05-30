@@ -1,38 +1,48 @@
-/* About Section Content */
-.about .content {
+/* Container for the about section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
   text-align: center; 
-  margin: 0 auto;
-  max-width: 800px; 
-  padding: 2rem;
 }
 
-/* About Section Header */
+/* Content box within the about section */
+.about .content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1); 
+  padding: 2rem;
+  border-radius: 10px; 
+}
+
+/* Main heading for the about section */
 .about h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-/* About Section Paragraphs */
-.about .content p {
-  font-size: 1rem; 
+/* Paragraph text within the about section */
+.about p {
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
-/* Resume Button Styles */
+/* Styles for the resume button */
 .resume-button {
-  margin-top: 20px; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  background-color: limegreen; 
-  color: white; 
-  border: none; 
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: limegreen;
+  color: white;
+  border: none;
   border-radius: 5px;
-  cursor: pointer; 
-  transition: background-color 0.3s; 
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Resume Button Hover Effect */
+/* Hover state for the resume button */
 .resume-button:hover {
-  background-color: darkgreen; /* Change color on hover */
+  background-color: darkgreen;
 }
