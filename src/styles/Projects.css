@@ -1,3 +1,5 @@
+/*Projects.css Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
 /* Container for the projects section */
 .projects .content {
   text-align: center;
@@ -113,4 +115,21 @@
 /* Hover state for the close button */
 .close-button:hover {
   background-color: darkred;
+}
+
+/* Glow Effect*/
+@keyframes glowingText {
+  0% {
+    text-shadow: 0 0 5px limegreen;
+  }
+  50% {
+    text-shadow: 0 0 20px limegreen;
+  }
+  100% {
+    text-shadow: 0 0 5px limegreen;
+  }
+}
+
+.glowing-text {
+  animation: glowingText 2s infinite;
 }

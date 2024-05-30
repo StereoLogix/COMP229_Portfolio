@@ -1,8 +1,13 @@
+/*About.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
 import React from 'react';
 import '../styles/About.css';
 
 /* About component for displaying personal information */
 export default function About() {
+  const handleResumeClick = () => {
+    window.open('/assets/Documents/derekresume2024.pdf', '_blank');
+  };
+
   return (
     <div className="about">
       <div className="content">
@@ -17,7 +22,7 @@ export default function About() {
         </p>
         
         {/* Resume button */}
-        <button className="resume-button" onClick={() => window.location.href = '/path/to/derekresume2024.pdf'}>
+        <button className="resume-button" onClick={handleResumeClick}>
           My Resume
         </button>
       </div>

@@ -1,3 +1,5 @@
+/*Layout.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Layout.css';

@@ -1,3 +1,5 @@
+/*Services.css Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
 /* Container for the services section */
 .services {
     text-align: center;
@@ -58,3 +60,22 @@
     max-height: 100%;
     transition: opacity 0.3s;
 }
+
+/* Glow Effect*/
+@keyframes glowingText {
+    0% {
+      text-shadow: 0 0 5px limegreen;
+    }
+    50% {
+      text-shadow: 0 0 20px limegreen;
+    }
+    100% {
+      text-shadow: 0 0 5px limegreen;
+    }
+  }
+  
+  .glowing-text {
+    animation: glowingText 2s infinite;
+    font-size: 2rem; /* Match this with the Projects page font size */
+  }
+  

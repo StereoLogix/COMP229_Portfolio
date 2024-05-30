@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+/*Contact.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Contact.css';
 
@@ -17,7 +19,12 @@ export default function Contact() {
     message: ''
   });
 
+  const [visible, setVisible] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setVisible(true);
+  }, []);
 
   /* Handler for form input changes */
   const handleChange = (e) => {
@@ -37,7 +44,7 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <div className="content">
+      <div className={`content ${visible ? 'visible' : ''}`}>
         {/* Section header */}
         <h2>Contact Me</h2>
         

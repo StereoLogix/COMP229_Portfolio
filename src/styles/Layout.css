@@ -1,3 +1,5 @@
+/*Layout.css Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
 /* Global Styles */
 html, body {
   height: 100%;
@@ -88,3 +90,9 @@ color: limegreen;
   text-align: center;
   padding: 1rem 0;
 }
+
+/* src/styles/Layout.css */
+.main-content {
+  animation: text-glow 0.5s ease-in-out;
+}
+

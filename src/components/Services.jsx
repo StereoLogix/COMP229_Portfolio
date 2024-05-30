@@ -1,6 +1,8 @@
+/*Services.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
+
 import React, { useState } from 'react';
 import '../styles/Services.css';
-
 import midiControllerImg from '../assets/Images/midicontroller.png';
 import customGuitarPedalImg from '../assets/Images/customguitarpedal.png';
 import webDesignImg from '../assets/Images/webdesign.png';
@@ -24,7 +26,7 @@ export default function Services() {
   return (
     <div className="services">
       {/* Section header */}
-      <h2>Services Offered</h2>
+      <h2 className="glowing-text">Services Offered</h2>
 
       {/* Container for the services list and image */}
       <div className="services-container">

@@ -1,3 +1,6 @@
+/*Contact.css Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
+
 /* Container for the contact section */
 .contact {
     text-align: center;
@@ -106,4 +109,21 @@
 /* Hover state for button within the contact form */
 .contact-form button:hover {
     background-color: darkgreen;
+}
+
+/* Glow Effect*/
+.contact .content {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1); /* Semi-translucent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(8, 230, 30); 
+    opacity: 0; /* Initial state */
+    transition: opacity 1.5s ease-in-out; /* Transition effect */
+}
+
+.contact .content.visible {
+    opacity: 1; /* Final state */
 }

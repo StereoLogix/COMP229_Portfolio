@@ -1,3 +1,6 @@
+/*Projects.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
+
 import React, { useState } from 'react';
 import '../styles/Projects.css';
 import electronicsImg1 from '../assets/Images/electronics.png';
@@ -55,7 +58,7 @@ export default function Projects() {
     <div className="projects">
       <div className="content">
         {/* Section header */}
-        <h2>My Projects</h2>
+        <h2 className="glowing-text">My Projects</h2>
         
         {/* Buttons for each project */}
         {projects.map((project, index) => (

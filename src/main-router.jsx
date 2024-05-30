@@ -1,3 +1,6 @@
+/*main-router.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
+
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';

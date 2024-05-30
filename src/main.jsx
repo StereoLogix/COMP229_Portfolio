@@ -1,4 +1,5 @@
-// src/main.jsx
+/*main.jsx Derek Leduc 300600738 COMP229 Web Application Development Assignment 1*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
